@@ -1,0 +1,25 @@
+{
+  "name": "mern-stack-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix backend",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pongsakorn-maker/mern-stack-101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pongsakorn-maker/mern-stack-101/issues"
+  },
+  "homepage": "https://github.com/pongsakorn-maker/mern-stack-101#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
